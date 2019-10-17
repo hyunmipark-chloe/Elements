@@ -1,0 +1,277 @@
+/* Elements */
+
+
+body {
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	width: 1441px;
+	position: relative;
+	/* min-height: 100vh; */
+	height: 1181px;
+}
+
+.circle {
+	width: 16em;
+    height: 16em;
+    background-color: #ffc46c;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+
+.circle-hide {
+    width: 13em;
+    height: 13em;
+    background-color: #ffc46c;
+    border-radius: 50%;
+    position: absolute;
+    left: 23%;
+    top: 15.9%;
+}
+
+.circle-2 {
+	width: 2em;
+	height: 2em;
+	background-color: rgb(53, 106, 172);
+	border-radius: 50%;
+	position: absolute;
+	left: 30.3%;
+	top: 52%;
+}
+
+.circle-3 {
+    width: 4em;
+    height: 4em;
+    background-color: #da98d0;
+    border-radius: 50%;
+    position: absolute;
+    left: 32%;
+    top: 50.5%;
+}
+
+.circle-4 {
+    width: 4.5em;
+    height: 4.5em;
+    background-color: #6d4aa4;
+    border-radius: 50%;
+    position: absolute;
+    left: 62%;
+    top: 60.5%;
+}
+
+.circle-5 {
+	width: 18em;
+	height: 14em;
+	background-color: #80c6e7;
+	border-radius: 50%;
+	position: absolute;
+	left: 29.5%;
+	top: 86%;
+}
+
+.circle-5hide {
+	width: 21em;
+	height: 8em;
+	background-color: white;
+	position: absolute;
+	left: 28.5%;
+	top: 96%;
+}
+
+.circle-6 {
+	width: 18em;
+	height: 7em;
+	background-color: #80c6e7;
+	border-radius: 50%;
+	position: absolute;
+	left: 29.5%;
+	top: 91.2%;
+}
+
+.circleline {
+	width: 29em;
+	height: 21em;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 50%;
+	transform: rotate(-55deg);
+	position: absolute;
+	left: 21%;
+	top: 21%;
+}
+
+.square {
+	background-color: #3dc9bc;
+	height: 120px;
+	width: 120px;
+	border-radius: 23%;
+	position: absolute;
+	transform: rotate(53deg);
+	top: 66.4%;
+	left: 44%;
+}
+
+
+.triangle {
+    border-bottom: 4em solid #e75c21;
+    border-left: 2.5em solid transparent;
+    border-right: 2.5em solid transparent;
+    position: absolute;
+    transform: rotate(24deg);
+    top: 42%;
+    left: 68.1%;
+}
+
+
+
+
+
+
+
+.dot {
+	width: 12px;
+	height: 12px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 25.3%;
+	top: 30.5%;
+}
+
+.dot-2 {
+	width: 13px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	transform: rotate(-45deg);
+	left: 33.3%;
+	top: 32%;
+}
+
+.dot-3 {
+	width: 10px;
+	height: 12px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 35.77%;
+	top: 52.4%;
+}
+
+.dot-4 {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 38.9%;
+	top: 40.8%;
+}
+
+.dot-5 {
+	width: 12px;
+	height: 8px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	transform: rotate(45deg);
+	left: 49.8%;
+	top: 69%;
+}
+
+.dot-6 {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 67.1%;
+	top: 53%;
+}
+
+.dot-7 {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 53.5%;
+	top: 64.8%;
+}
+
+.dot-8 {
+	width: 10px;
+	height: 7px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	transform: rotate(23deg);
+	left: 70.1%;
+	top: 46.1%;
+}
+
+.dot-9 {
+width: 18px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 38.9%;
+    top: 87.6%;
+}
+
+
+
+
+
+
+.line {
+    height: 2px;
+    width: 31em;
+    background-color: black;
+    transform: rotate(53deg);
+    position: absolute;
+    left: 27%;
+    top: 48.9%;
+}
+
+.line-2 {
+    height: 2px;
+    width: 34em;
+    background-color: black;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 20.6%;
+    top: 65.3%;
+}
+
+.line-3 {
+    height: 2px;
+    width: 20em;
+    background-color: black;
+    transform: rotate(-36deg);
+    position: absolute;
+    left: 48%;
+    top: 61.5%;
+ } 
+
+ .line-4 {
+    height: 2px;
+    width: 12em;
+    background-color: black;
+    transform: rotate(-67deg);
+    position: absolute;
+    left: 61.2%;
+    top: 54%;
+}   
+
+
+
+
